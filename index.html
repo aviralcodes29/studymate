@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>StudyMate | Responsive Student Planner</title>
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar container">
+      <a href="index.html" class="logo">StudyMate</a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open navigation menu">
+        ☰
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="active-link">Home</a></li>
+        <li><a href="planner.html">Planner</a></li>
+        <li><a href="features.html">Features</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <button class="theme-btn" id="themeBtn" aria-label="Toggle dark mode">
+        🌙
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero-section container">
+      <div class="hero-content">
+        <p class="tagline">Smart Study Planning</p>
+        <h1>Plan your study tasks with StudyMate</h1>
+        <p>
+          StudyMate is a responsive student planner that helps you manage study
+          tasks, deadlines, priorities, and progress in one clean interface.
+        </p>
+
+        <div class="hero-actions">
+          <a href="planner.html" class="primary-btn">Start Planning</a>
+          <a href="features.html" class="secondary-btn">View Features</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <h2>Today’s Focus</h2>
+
+        <div class="mini-task">
+          <span>HTML Assignment</span>
+          <strong>High</strong>
+        </div>
+
+        <div class="mini-task">
+          <span>JavaScript Practice</span>
+          <strong>Medium</strong>
+        </div>
+
+        <div class="mini-task">
+          <span>Revision Notes</span>
+          <strong>Low</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="section-heading">
+        <p class="tagline">Why StudyMate?</p>
+        <h2>Built for students who want better productivity</h2>
+      </div>
+
+      <div class="cards-grid">
+        <article class="info-card">
+          <h3>Responsive Design</h3>
+          <p>
+            Works smoothly on mobile, tablet, laptop, and desktop screens.
+          </p>
+        </article>
+
+        <article class="info-card">
+          <h3>Task Management</h3>
+          <p>
+            Add, complete, delete, search, and filter your study tasks easily.
+          </p>
+        </article>
+
+        <article class="info-card">
+          <h3>Progress Tracking</h3>
+          <p>
+            Track total, completed, pending tasks and study progress percentage.
+          </p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 StudyMate. Built by Aviral Singh.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

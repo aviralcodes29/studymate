@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Contact | StudyMate</title>
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar container">
+      <a href="index.html" class="logo">StudyMate</a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open navigation menu">
+        ☰
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="planner.html">Planner</a></li>
+        <li><a href="features.html">Features</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active-link">Contact</a></li>
+      </ul>
+
+      <button class="theme-btn" id="themeBtn" aria-label="Toggle dark mode">
+        🌙
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section container">
+      <div class="section-heading">
+        <p class="tagline">Contact</p>
+        <h1>Get in touch</h1>
+        <p>Have feedback or suggestions? Send a message.</p>
+      </div>
+
+      <section class="contact-card">
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="nameInput">Name</label>
+            <input type="text" id="nameInput" placeholder="Enter your name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="emailInput">Email</label>
+            <input type="email" id="emailInput" placeholder="Enter your email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="messageInput">Message</label>
+            <textarea
+              id="messageInput"
+              rows="5"
+              placeholder="Write your message"
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" class="primary-btn full-btn">
+            Send Message
+          </button>
+
+          <p class="success-message" id="successMessage">
+            Thank you! Your message has been submitted.
+          </p>
+        </form>
+      </section>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 StudyMate. Built by Aviral Singh.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
